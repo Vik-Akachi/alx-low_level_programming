@@ -1,7 +1,2 @@
 #!/bin/bash
-#iclude <stdio>
-	int main(void);
-{
-	printf($CFILE);
-	return (0);
-}
+gcc -E $CFILE > c
