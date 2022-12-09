@@ -1,6 +1,5 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
 
 /**
  * main - Entry point.
@@ -10,22 +9,27 @@
  *
  * return: Always 0 (Success)
  */
-
-int main(void) /* main -  entry point */
-{
+nt main(void)
+	/* main - main is the entry point */
 	int n:
 
 	srand(time(0))
 	n = rand() - RAND_MAX / 2;
-
-	if (n > 0)
-		printf("%d is positive\n", n);
-		/* n returns positive when n value is greater than zero */
-	else if (n == 0)
-		printf("%d is zero\n", n);
-		/* n returns to zero when n equals zero */
+{
+	if (n == > 0)
+		printf("n is positive\n");
+	/* n returns positive when n value is greater than zero */
 	else
-		printf("%d is negatve\n", n);
+	{
+		if (n == 0)
+			printf("n is zero\n");
+		/* n returns to zero when n equals zero */
+	}
+	else
+	{
+		if (n == < 0)
+			printf("n is negatve\n");
 		/* n returns negative when n value is less than zero */
-	return (0);
+	}
 }
+	return (0);
