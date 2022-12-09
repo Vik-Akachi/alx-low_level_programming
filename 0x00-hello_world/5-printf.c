@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * mani - Entry point
+ * main - Entry point
  *
  * Description: prints "with proper grammar, the outcome is a piece of art".
  *
@@ -9,6 +9,6 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is piece of art, \n");
+	printf("with proper grammar, but the outcome is a piece of art, \n");
 	return (0);
 }
