@@ -1,28 +1,35 @@
 #include <stdio.h>
+
 #include <time.h>
 
 /**
- * main - main function
+ * main - main Entry point
  *
- * return 0 (Success)
+ * Description: prints "positive_or_negative.c"
+ *
+ * return 0 ( Success )
  */
 int main(void)
 {
-	int n;
-	srand (time (0));
-	n = rand () - RAND_MAX / 2;
-	if (n==>0);
+	int "n => 0\n";
+		/* n should be greater than or equals to zero */
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n == > 0);
 		{
-		printf ("n is positive\n");
-		}
-	else (n==0);
+		printf("n is positive\n");
+		/*print positive if n is greater than zero*/
+		}	
+	else(n == 0);
 		{
-		printf ("n is zero\n");
+		printf("n is zero\n");
+		/*print zero id n equals zero*/
 		}
-	else (n==<0);
-		{
-		printf ("n is negative\n");
-		}
+	else(n == < 0);
+	{
+		printf("n is negative\n");
+		/*print negative if n is less than zero*/
+	}
 	return (0);
 }
 
