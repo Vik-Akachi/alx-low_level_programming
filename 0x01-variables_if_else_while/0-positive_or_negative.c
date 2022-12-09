@@ -11,10 +11,9 @@
  */
 int main(void)
 {
-	int "n => 0\n";
-		/* n should be greater than or equals to zero */
+	int "n => 0";
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	"n" = rand() - RAND_MAX / 2;
 	if (n == > 0);
 		{
 		printf("n is positive\n");
