@@ -1,16 +1,13 @@
-#include<stdio.h>
-/*
- * main - Main Entry point.
+#include <stdio.h>
+/**
+ * main - Entry point
  *
- * Description:"with proper grammar, but the outcome is a piece of art,"
- *  
- * Description - main always entry point.
- * 
-* return 0 (Success).
-*/
+ * Description: prints “with proper grammar, the outcome is a piece of art”
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
-/*main -main entry point*/
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf(“with proper grammar, but the outcome is a piece of art, \n”);
 	return (0);
-}	
+}

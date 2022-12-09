@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: prints "programming is like building a muiltilingual puzzle"
+ * Description: prints "programming is like building a muiltilingual puzle"
  *
  * Return: Always 0 (success)
  */
