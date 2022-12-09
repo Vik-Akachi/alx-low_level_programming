@@ -2,12 +2,13 @@
 /**
  * main - Entry point
  *
- * Description: prints “Programming is like building a multilingual puzzle”
+ * Description: prints "programming is like building a muiltilingual puzzle"
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-puts(“\”Programming is like building a multilingual puzzle”);
+
+	puts("\"programming is like building a multilingual puzzle");
 	return (0);
 }
