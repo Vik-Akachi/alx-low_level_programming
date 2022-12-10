@@ -1,20 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - am coming for you
+ * main - lookig a complecated
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	int i + 122;
 
-	i = 48;
-
-	while (i < 58)
+	while (i > 96)
 	{
 		putchar(i);
-		i++;
+		i--;
 	}
 
 	putchar(10);
