@@ -5,8 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-
-int mani(void)
+int main(voidd)
 {
 
 	int i, j, k, m;
