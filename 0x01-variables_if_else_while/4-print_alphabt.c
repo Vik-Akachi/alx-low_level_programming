@@ -8,9 +8,11 @@
 int main(void)
 
 {
-	int a = "a";
-	int a = < "z";
-	int a++, \n;
+	int a;
+	int z;
+	int a++;
+
+	putchar(a = a)
 
 		puchar(a, \n);
 
