@@ -2,9 +2,10 @@
 /**
  * main - you wont win this night
  *
- *Description:a program that prints all single digit numbers of base 10 starting from 0
+ *Description:a program that prints all single digit
+ *numbers of base 10 starting from 0
  *
- * Rerturn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
