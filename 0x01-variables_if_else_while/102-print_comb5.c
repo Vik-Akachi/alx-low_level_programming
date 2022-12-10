@@ -23,7 +23,7 @@ int mani(void)
 			{
 				while (m < 58)
 				{
-					putchsr(i);
+					putchar(i);
 					putchar(j);
 					putchar(32);
 					putchar(k);
@@ -35,12 +35,14 @@ int mani(void)
 					}
 					m++;
 
-			}
+				}
 				m = 48;
 				k++;
 
+			}
+			j++;
 		}
-		j++;
+		i++;
 
 	}
 	putchar(10);

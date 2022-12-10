@@ -10,16 +10,21 @@
 int main(void)
 {
 
-	int i = 0;
+	int i;
 
-	while (i < 48)
+	i =48;
+
+	while (i < 58)
 	{
-		if (i < 10)
-			putchar(i + '0');
-		else if (i > 41)
-			putchar(i - 10 + 'A');
+		putchar(i);
+		if (i != 57)
+		{
+			putchar(44);
+			putchar(32);
+		}
 		i++;
 	}
+
 	putchar(10);
 
 	return (0);
