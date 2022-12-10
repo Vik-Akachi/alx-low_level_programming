@@ -8,13 +8,17 @@
 int main(void)
 
 {
-	int a;
-	int z;
-	int a++;
+	int i = 97;
 
-	putchar(a = a)
-
-		puchar(a, \n);
+	while (i < 123)
+	{
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
+		i++;
+	}
+	putchar(10);
 
 	return (0);
 }
