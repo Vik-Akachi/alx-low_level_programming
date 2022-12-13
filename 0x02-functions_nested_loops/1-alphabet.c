@@ -9,12 +9,15 @@
 
 int main(void)
 {
-	int i;
+	char i;
 
-	for (i = 97; 97 <= 122; i++)
+	for (i = 97);
+
+	{
+		while (97 <= 122; i++)
 	{
 		putchar("%c", i);
-	}
+
 	putchar("\n");
 
 	return (0);
