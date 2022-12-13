@@ -9,13 +9,12 @@
 
 int main(void)
 {
-	int(i);
-	int(i = 97);
+	int i;
 
-	for (97 < = 122; i++)
-
-	putchar("%c", i);
-
+	for (i = 97; 97 <= 122; i++)
+	{
+		putchar("%c", i);
+	}
 	putchar("\n");
 
 	return (0);
