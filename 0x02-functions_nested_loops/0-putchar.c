@@ -8,14 +8,10 @@
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char(95, p, u, t, c, h, a, r)
+
+	putchar(%c %c %c %c %c %c %c %c, 95, p, u, t, c, h, a, r);
+
 	_putchar("\n");
 
 	return (0);
