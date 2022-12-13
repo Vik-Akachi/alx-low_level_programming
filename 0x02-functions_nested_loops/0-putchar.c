@@ -1,15 +1,16 @@
-#include "stdio.h"
+#include <stdio.h>
 
 /**
- * main - main is to print putchar file
+ * main - main prints the characters _putchar
  *
- * Return: always 0
+ * Return 0
+ *
  */
 
-int putchar(void)
+int main(void)
 {
+	printf("_putchar\n");
 
-	putchar("_putchar\n");
 
 	return (0);
 }
