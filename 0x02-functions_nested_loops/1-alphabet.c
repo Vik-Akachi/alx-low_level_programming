@@ -10,7 +10,7 @@
 int main(void)
 {
 	char(i);
-	for (i = a; a < = z; i++)
+	for (i = 97; 97 < = 122; i++)
 
 	putchar("%c", i);
 
