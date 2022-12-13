@@ -6,11 +6,10 @@
  * Return: always 0
  */
 
-int (void)
+int putchar(void)
 {
 
-	putchar("_putchar");
+	putchar("_putchar\n");
 
-	_putchar("\n");
 	return (0);
 }
