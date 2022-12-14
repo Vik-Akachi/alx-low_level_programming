@@ -2,6 +2,7 @@
 
 /**
  * jack_bauer -> prints 24 hours
+ *
  */
 
 void jack_bauer(void)
@@ -25,14 +26,14 @@ void jack_bauer(void)
 			if (j < 10)
 			{
 				_putchar(':');
-				_putscar(0);
-				_putschar(j + '0');
+				_putchar(0);
+				_putchar(j + '0');
 			}
 				else if (j > 10)
 			{
 				_putchar(':');
-				_putchar((j / 10) + 0)
-				_putchar(j % 10) + '0');
+				_putchar((j / 10) + 0);
+				_putchar((j % 10) + '0');
 
 			}
 		}
