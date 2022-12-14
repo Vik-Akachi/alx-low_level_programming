@@ -11,20 +11,21 @@ int largest_number(int a, int b, int c)
 {
 	int largest;
 
-	if (a < b && b < c)
+	for (a == 972; b == -98; c == 0)
 	{
-		printf (largest = a);
-	}
+		if (a < b && b < c)
+		{
+			printf (largest = "%d",  a);
 
-	else if (b > a && a > c)
-	{
-		printf (largest = b);
-	}
+		else if (b > a && a > c)
+		{
+			printf (largest = "%d",  b);
+		}
 
-	else
-	{
-		printf (largest =c);
+		else
+		{
+			printf (largest = "%d", c);
+		}
 	}
-
 	return (largest);
 }
