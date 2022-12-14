@@ -2,20 +2,14 @@
 
 /**
  * _abs - Writes a function that computes the absolute value of an integer
- *@: integer to be printed
- *Return: always 1 (Success)
+ *@n: parameter
+ *Return: returns absolute value of a number
  */
 
-int _abs(int)
-
+int _abs(int n)
 {
-	int i;
-
-	if (i = i + 1; i > 0; i++)
-		_putchar (+i);
-	{
-	else
-		_putchar (+i);
-	}
+	if (n < 0)
+		n = -n
+	return (n);
 }
 
