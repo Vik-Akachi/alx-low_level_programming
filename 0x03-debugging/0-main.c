@@ -2,10 +2,12 @@
 
 /**
  * main - tests function that prints if integer is positive or negative
- * return: always 0.
+ *
+ * return: Always 0.
  */
 
 int main(void)
+
 {
 	int i;
 
