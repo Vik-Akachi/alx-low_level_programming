@@ -2,16 +2,18 @@
 #include <stdio.h>
 
 /**
+ * main - main function
+ *
  * Fizz_Buzz - a program that filters numbers and prints fizz buzz
  *
  * Return: Always 0 (Success)
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int a;
 
-	if (a = 1; a <= 100; a++)
+	for (a = 1; a <= 100; a++)
 
 	{
 		if (a % 3 == 0)
@@ -26,5 +28,5 @@ void fizz_buzz(void)
 		else
 			printf("%d ", a);
 	}
-	printf('\n');
+	return (0);
 }
