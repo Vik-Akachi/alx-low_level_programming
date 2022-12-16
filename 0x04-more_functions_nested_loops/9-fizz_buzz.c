@@ -4,7 +4,7 @@
 /**
  * main - main function
  *
- * Fizz_Buzz - a program that filters numbers and prints fizz buzz
+ * Fizz_Buzz: a program that filters numbers and prints fizz buzz
  *
  * Return: Always 0 (Success)
  */
