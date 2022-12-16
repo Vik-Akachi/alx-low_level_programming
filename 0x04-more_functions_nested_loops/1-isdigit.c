@@ -5,7 +5,7 @@
  *
  * @c: integer to be checked
  *
- * Returns: return 1 or 0 depending on the condition
+ * Return: return 1 or 0 depending on the condition
  *
  */
 
