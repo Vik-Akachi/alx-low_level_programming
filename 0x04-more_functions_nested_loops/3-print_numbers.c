@@ -5,10 +5,12 @@
  *
  * _putchar: caharacter initiator
  *
+ * @: for 0-9
+ *
  * Return: always 0 (Success)
  */
 
-void print_numbers(void);
+void print_numbers(void)
 {
 	int a;
 
