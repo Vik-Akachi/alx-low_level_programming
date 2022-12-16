@@ -19,7 +19,7 @@ void print_diagonal(int n)
 		_putchar ('\n');
 	else
 	{
-		for (b = 0; b <= n; b++)
+		for (b = 0; b < n; b++)
 		{
 			for (i = 0; i < b; i++)
 				_putchar (' ');
