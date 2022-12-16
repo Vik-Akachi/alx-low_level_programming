@@ -3,9 +3,6 @@
 /**
  * more_numbers -> a function that prints 10 times the numbers, from 0 to 14
  *
- * @a: first interger
- * @b: second integer
- *
  * Return: always 0
  */
 
@@ -19,8 +16,9 @@ void more_numbers(void)
 	{
 		for (b = 0; b < 15; b++)
 		{
-			putchar (b + '0');
+			putchar ("%d", b);
 		}
 		putchar ('\n');
 	}
+	putchar (0)
 }
