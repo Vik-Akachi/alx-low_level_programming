@@ -5,7 +5,7 @@
  *
  * @a: fir integer
  * @b: second interger
- *
+ * @c: swap parameter
  * Return: always 0
  */
 
@@ -14,8 +14,8 @@ void swap_int(int *a, int *b)
 {
 	int c;
 
-	*a = c;
+	c = *a;
 	*a = *b;
-	*c = c;
+	*b = c;
 		
 }
