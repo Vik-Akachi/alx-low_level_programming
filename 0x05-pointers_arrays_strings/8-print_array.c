@@ -4,6 +4,10 @@
 /**
  * print_array - function that prints n elements of an array
  *
+ * @a: presented integer
+ *
+ * @n: second integer presented
+ *
  * Return: always 0
  */
 
