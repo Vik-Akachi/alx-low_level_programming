@@ -4,7 +4,7 @@
  * _strcpy - copies the value from string a to string b
  *
  * @src: destination 1
- * 
+ *
  * @dest: desination 2
  *
  * Return:always 0
