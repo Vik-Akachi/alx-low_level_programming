@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /*
- * *_strcat - function to append to strings
+ * _strcat - function to append to strings
  *
- * @*dest: final destination
+ * @dest: final destination
  *
- * @*src: initiating file
+ * @src: initiating file
  *
  * Return: alwasy 0
  */
