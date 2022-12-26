@@ -17,17 +17,24 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	for (*dest != '\0')
+	int size1 = 0;
+	int size2 = 0;
+
+	while (*(dest + size1) != '\0')
 	{
 		dest++;
 	}
 
-	while (*src != '\0'; src <= n)
+	while (size2 < n)
 
 	{
-		src++;
-	}
-	strncat(dest = n);
+		*(dest + size1) = *(src + size2);
+		if (*(src + size2) == '\0')
+			break;
 
-	return (n);
+		size1++;
+		size2++;
+	}
+
+	return (dest);
 }
