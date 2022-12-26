@@ -1,7 +1,9 @@
 #include "main.h"
 
 /*
- * _strncpy - point of entry
+ * _strncpy - entry point
+ *
+ *
  *
  * @dest: final destination
  *
