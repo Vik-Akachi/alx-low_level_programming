@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /*
  * *_strcat - function to append to strings
@@ -10,7 +11,7 @@
  * Return: alwasy 0
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 
 {
 	char *i = dest;
@@ -26,6 +27,6 @@ char *_strcat(char *dest, char *src);
 		dest++;
 		src++;
 	}
-	*dest = '\0'
+	*dest = '\0';
 	return (i);
 }
