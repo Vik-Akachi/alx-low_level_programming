@@ -10,13 +10,21 @@ int factorial(int n)
 {
 
 	int i = 1;
+	int j;
 
-	if (n > 0)
-
+	if (n == 0)
 	{
-		n = ((n - i) * n);
+		return (1);
+	}
+	else if (n < 0)
+	{
+		return (-1);
+	}
+	else
+	{
+		j = ((n - i) * n);
 				n--;
 		_putchar(factorial(n));
 	}
-	return (0);
+	return (j);
 }
