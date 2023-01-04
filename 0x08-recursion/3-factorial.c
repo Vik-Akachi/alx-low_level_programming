@@ -23,8 +23,6 @@ int factorial(int n)
 	else
 	{
 		j = ((n - i) * n);
-				n--;
-		_putchar(factorial(n));
 	}
 	return (j);
 }
