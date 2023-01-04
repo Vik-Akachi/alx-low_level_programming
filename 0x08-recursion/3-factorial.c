@@ -22,7 +22,7 @@ int factorial(int n)
 	}
 	else
 	{
-		j = ((n - i) * n);
+		j = (factorial(n - i) * n);
 	}
 	return (j);
 }
