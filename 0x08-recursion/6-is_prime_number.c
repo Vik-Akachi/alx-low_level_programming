@@ -1,9 +1,8 @@
 #include "main.h"
 
+int check_prime(int, int);
 /**
- * is_prime_number - returns a prime number
- * @n: the number
- * Return: number
+ * is_prime_number - prime identifier
  */
 
 int is_prime_number(int n)
