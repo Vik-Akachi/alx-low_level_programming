@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - entry point 
+ * main - entry point
  * @argc: argument count
  * @argv: argiment address in vector array
  * @a: argument presented
@@ -11,11 +11,10 @@
 
 int main(int argc, char **argv)
 {
-		int a;
+	(void)argv;
 
-		for (a > 0; a < argc; a++)
 		{
-			printf("number of arguments is: %d\n", argv[a]);
+			printf("number of arguments is: %d\n", argc - 1);
 
 			return (0);
 		}
