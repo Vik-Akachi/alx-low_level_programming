@@ -5,7 +5,6 @@
  * main - entry point
  * @argc: argument count
  * @argv: argiment address in vector array
- * @a: argument presented
  * Return: 0
  */
 
