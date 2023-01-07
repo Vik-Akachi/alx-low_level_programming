@@ -2,6 +2,7 @@
 
 /**
  * _islower - returns lower letters
+ * @c: cbaraacter
  */
 
 int _islower(int c)

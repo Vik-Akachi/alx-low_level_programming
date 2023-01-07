@@ -2,6 +2,7 @@
 
 /**
  * _isupper - something
+ * @c: character string
  */
 
 int _isupper(int c)

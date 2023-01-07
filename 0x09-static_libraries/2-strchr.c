@@ -2,6 +2,8 @@
 
 /**
  * _strchr - returns something
+ * @s:address
+ * @c: characters  
  */
 
 char *_strchr(char *s, char c)

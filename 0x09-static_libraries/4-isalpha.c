@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - prints alphabets
+ * @c: characters
  */
 
 int _isalpha(int c)
