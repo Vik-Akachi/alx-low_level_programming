@@ -8,7 +8,7 @@
  * Return: something
  */
 
-int main(int argc char *argv[])
+int main(int argc char, *argv[])
  
 {
 	int mult, num1, num2;
