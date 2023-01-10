@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-int main(int argc, int **argv)
+int main(int argc, char **argv)
 {
 	int result = 0, num, a, b, c;
 
@@ -32,5 +32,4 @@ int main(int argc, int **argv)
 			return (0);
 		}
 	}
-
 }
