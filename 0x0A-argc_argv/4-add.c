@@ -10,24 +10,27 @@
 
 int main(int argc, int **argv)
 {
-	int add, num1, num2;
+	int result = 0, num, a, b, c;
 
-	if (argv[] == Null);
+	for (a = 0; a < argc; a++)
 	{
-		printf("0\n");
+		for (b = 0; argv[a][b] != '\0'; b++)
+		{
+			if (argv[a][b] > '9' || argv[a][b] < '0')
+			{
+			printf("%s\n", "Error");
+			return (1);
+			}
+		}
+	}
+	for (c = 1; c < argc; c++)
+	{
+		num = atoi(argv[c]);
+		result += num;
+		{
+			printf("%d\n", result);
+			return (0);
+		}
 	}
 
-	if (argv[] != int)
-	{
-		printf("Error\n");
-		return (0);
-	}
-	add = num1 + num2
-	num1 = atoi(argv[1]);
-	num2 = atoi(argv[2]);
-	{
-		printf("%d\n", add);
-		return (0);
-	}
 }
-
