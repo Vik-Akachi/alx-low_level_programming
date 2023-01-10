@@ -14,16 +14,16 @@ int main(int argc, char **argv)
 	int mult, a, b;
 
 	{
-		if (argc < 3)
-			printf("Error\n");
+		if (argc != 3)
+			printf("%s\n", "Error");
 		return (1);
 	}
 
 	a = atoi(argv[1]);
 	b = atoi(argv[2]);
-	mul = a * b;
+	mult = a * b;
 	{
-		printf("%d\n",mul);
+		printf("%d\n",mult);
 	}
 
 	return (0);
