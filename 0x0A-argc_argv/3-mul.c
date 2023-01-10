@@ -18,10 +18,14 @@ int main(int argc, char **argv)
 			printf("Error\n");
 		return (1);
 	}
+	int mul;
 
 	a = atoi(argv[1]);
 	b = atoi(argv[2]);
-		printf("%d\n", a * b);
+	mul = a * b;
+	{
+		printf("%d\n", mul);
+	}
 
 	return (0);
 }
