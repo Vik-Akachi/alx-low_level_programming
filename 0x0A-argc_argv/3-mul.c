@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 	b = atoi(argv[2]);
 	mult = a * b;
 	{
-		printf("%d\n",mult);
+		printf("%d\n", mult);
 	}
 
 	return (0);
