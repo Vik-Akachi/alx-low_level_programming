@@ -8,37 +8,41 @@
  * @n: given string length
  * @s1: first string address
  * @s2: secong string length
- * return: s 
+ * Return: s
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i;
-	char *s
+	unsigned int x, y, z;
+	char *s;
 
-	int s1_length = strlen(s1);
-	int s2_length = strlen(s2);
-	int size = s1_length = s2_length + 1;
-
-	char *s = malloc(s + 1 * sizeof(char));
+	if (s1 == NULL)
 	{
-		for (i = 0; i < s1_length; i++)
-		{
-			s[i] = s1[i];
-		}
-		if (n >= s1)
-		{
-			s1 == n;
-		}
-
-		for (i = 0; i < s2_length; i++)
-		{
-			s[s1_length + i] = s2[i];
-		}
-		if (s == NULL)
-		{
-			s = (0);
-		}
-	}	s[size - 1] = '\0';
+		x = 0;
+	}
+	else
+	{
+		for (x = 0; s1[x]; ++x)
+		;
+	}
+	if (s2 == NULL)
+	{
+		y = 0;
+	}
+	else
+	{
+		for (y = 0; s2[y]; ++y)
+		;
+	}
+	if (y > n)
+		y = n;
+	s = malloc(sizeof(char) * (x + y + 1));
+	if (s == NULL)
+		return (NULL);
+	for (z = 0; z < x; z++)
+		s[z] = s1[z];
+	for (z = 0; z < y; z++)
+		s[z + x] = s2[z];
+	s[x + y] = '\0';
 	return (s);
 }
