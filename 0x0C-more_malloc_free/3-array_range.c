@@ -5,32 +5,26 @@
 /**
  * array_range - allocates and prints a range of arrays
  * @min: smallest number
- * @max: largest number
- * @i: pointer
- * @a: varriables
+ * @max: large
  * Return: i
  */
 
 int *array_range(int min, int max)
 {
-	char *i;
-	int a;
+	int *i;
+	int a, size;
 	
-	for (a = 0; a < i[i - 1]; a++)
-	{
-		for (a = min; a < max; a++)
-	}
-
-	*i = malloc(sizeof(int) * a);
-
-	if (a > (a -1))
-	{
+	if (min > max)
 		return (NULL);
-	}
-	else if (i == 0)
-	{
+
+	size = max - min + 1;
+
+	i = malloc(sizeof(int) * size);
+
+	if (i == NULL)
 		return (NULL);
-	}
-	else
-		return (i);
+
+	for (a = 0; min <= max; a++)
+		i[a] = min++;
+	return (i);
 }
