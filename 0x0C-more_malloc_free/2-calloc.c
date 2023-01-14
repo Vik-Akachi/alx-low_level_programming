@@ -15,23 +15,20 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	unsigned int n;
 	char *p;
 
-	p = malloc(sizeof(unsigned int) * size);
+	if ((nmemb == 0) || (size == 0))
 	{
-		return (0);
+		return (NULL);
+	}
+
+	p = malloc(nmemb * size);
+
+	if (p == 0)
+	{
+		return (NULL);
 	}
 
 	for (n = 0; n < (nmemb * size); n++)
 		p[n] = 0;
 	return (p);
-	{
 
-		if ((nmemb == 0) || (size == 0))
-		{
-			return (NULL);
-		}
-		else if ("p" == 0)
-		{
-			return (NULL);
-		}
-	}
 }
