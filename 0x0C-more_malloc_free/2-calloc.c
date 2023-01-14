@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
 #include <stdio.h>
-  
+
 /**
 * _calloc - function to contiguosly allocate memory in c
 * @nmemb: assigened memory
@@ -12,6 +12,26 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 
 {
-	
-}
+	unsigned int n;
+	char *p;
 
+	p = malloc(sizeof(unsigned int) * size);
+	{
+		return (0);
+	}
+
+	for (n = 0; n < (nmemb * size); n++)
+		p[n] = 0;
+	return (p);
+	{
+
+		if ((nmemb == 0) || (size == 0))
+		{
+			return (NULL);
+		}
+		else if ("p" == 0)
+		{
+			return (NULL);
+		}
+	}
+}
