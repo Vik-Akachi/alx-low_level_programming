@@ -5,7 +5,8 @@
 /**
  * print_dog - prints the details of a dog
  * @d: pointer to the address of dog
- *
+ * 
+ * Return: void
  */
 
 void print_dog(struct dog *d)
