@@ -1,22 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
+#include "dog.h"
 
 /**
- * struct dog *d -> place holder for the dog struct
+ * init_dog -> initiliazes a structure of the type dog
+ * @d: pointer to the structure
  * @name: name of the dog
  * @age: age of dog
  * @owner: owner of dog
  */
 
-struct dog
-{
-	char *name;
-	float age;
-	char *owner;
-}
-
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	return (dog);
+	if (d)
+	{
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
+
 }
