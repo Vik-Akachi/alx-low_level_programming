@@ -4,9 +4,3 @@ struct dog
 	float *age[3];
 	char *owner[15];
 }
-
-int main(void)
-{
-	struct dog;
-
-}
