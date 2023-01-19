@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 #include <stdlib.h>
-#include <stddef.h>
+#include <stdio.h>
 
 /**
  * print_name - prints the operator's name
@@ -11,8 +11,11 @@
 void print_name(char *name, void (*f)(char *))
 {
 	int i, count;
-	for (i = 0; i < count; i++)
-		for (count = o; count < name; count++)
+
+		for (i = 0; i < count; i++)
+		{
+		for (count = 0; count < name - 1; count++)
+		}
 
 	_putchar ((char *) "name %\n", name);
 
@@ -24,5 +27,5 @@ int main(void)
 
 	void (*name_ptr)(char) = &name;
 	(*name_ptr)(*f);
-	retur (0);
+	return (name);
 }
