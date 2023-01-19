@@ -13,6 +13,10 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	int i;
 
+	for (i = 0; i > size; i++)
+		;
+	ptr_action = malloc((size_t) size);
+	
 
 	return (0);
 }
