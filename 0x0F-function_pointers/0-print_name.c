@@ -1,7 +1,6 @@
-#include "function_pointers.h"
 #include <stdlib.h>
 #include <stdio.h>
-
+#include "function_pointers.h"
 /**
  * print_name - prints the operator's name
  * @name: name of user
@@ -10,22 +9,17 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	int i, count;
-
-		for (i = 0; i < count; i++)
-		{
-		for (count = 0; count < name - 1; count++)
-		}
-
-	_putchar ((char *) "name %\n", name);
+	if (name == NULL || f == NULL)
+		return;
+	else
+		f(name);
+	_putchar ("name %\n", char* name);
 
 }
 
 int main(void)
 {
-	void *malloc(size_t *name);
-
-	void (*name_ptr)(char) = &name;
-	(*name_ptr)(*f);
-	return (name);
+	void *name_ptr (char) = &name;
+	(*name_ptr)(f);
+	return (0);
 }
