@@ -12,20 +12,14 @@
 
 size_t list_len(const list_t *h)
 {
-	int count;
-	int i;
-
-	list_len = i;
+	int count = 0;
 
 
 	while (h)
 	{
-		for  (i = 0; i < count; i++)
-		{
-			printf("%d\n", i);
-		}
 		count++;
+		h = h->next;
 	}
-	return (0);
+	return (count);
 }
 
