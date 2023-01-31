@@ -6,7 +6,7 @@
  * free_listint - frees the memory when the program is done executing
  * @head: holds the pointer to the first node
  *
- * Return: 0
+ * Return: something
  */
 
 void free_listint(listint_t *head)
