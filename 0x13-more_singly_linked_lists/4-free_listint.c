@@ -3,20 +3,21 @@
 #include <stdlib.h>
 
 /**
- * free_listint - frees the memory when the program is done executing
- * @head: holds the pointer to the first node
+ * free_listint - frees a listint_t list
  *
- * Return: something
+ * @head: the head of the list
+ *
+ * Return: NULL if error
  */
 
 void free_listint(listint_t *head)
 {
 	listint_t *next;
 
-	if (head != NULL)
+	while (head != NULL)
 	{
 		next = head->next;
-		free(next);
+		free(head);
 		head = next;
 	}
 }
