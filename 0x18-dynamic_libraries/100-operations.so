@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+
+import random
+import ctypes
+
+cops = ctypes.CDLL('100-operations.so')
+
+# a = randm.randint(-111, 111)
+# b = random.randint(-111, 111)
+
+add = cops.add
+add.argtypes = [ctypes.c_int, ctypes.c_int]
+
+sub = cops.sub
+sub.argtypes = [ctypes.c_int, ctypes.c_int]
+
+mul = cops.mul
+mul.argtypes = [ctypes.c_int, ctypes.c_int]
+
+div = cops.div
+div.argtypes = [ctypes.c_int, ctypes.c_int]
+
+mod = cops.mod
+mod.argtypes = [ctypes.c_int, ctypes.c_int]
+
+add(int, int)
+sub(int, int)
+mul(int, int)
+div(int, int)
+mod(int, int)
